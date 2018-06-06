@@ -1,0 +1,64 @@
+Q:How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Using Diff we know what lines we changed from our previous code.
+Usually these are the lines that cause the errors.
+We can easily spot syntax errors.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Q:How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+By Having easy access to older files , if our newer version breaks then we can use the older versions to correct it.
+We can restore the newer version to older version if we don't like it.
+
+------------------------------------------------------------------------------------------------------------------------
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Manual Commit
+
+Pro:
+	More customization.
+	Decide properly when to commit.Commit for one logical change.
+
+Cons:
+	We can forget to commit or be lazy to commit 
+
+Automatic commit
+
+Pro:
+	Don't need to remember to commit.
+
+Cons:
+	If time period between commits is too small it can lead to waste of memory or
+	too large can't capture essential changes in the program.
+	Ex: If time period is one week between commits and if you add a new feature on day one
+	and make further changes afterwards on day 3 and break it.you won't be able to get
+	day one code.
+------------------------------------------------------------------------------------------------------------------------
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+In google docs the files are independent of each other so treating each file separately is best.
+
+Git allows for saving multiple files because the change can span across multiple files.
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+Q: How can you use the commands git log and git diff to view the history of files?
+
+git log shows all the commits we have made.Using git diff we can compare the differences between commits.wa
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+Q: How might using version control make you more confident to make changes that could break something?
+
+Using version-control we have access the older versions so if I break the code I can use git checkout to restore back to previous version.
+
+-------------------------------------------------------------------------------------------------------------------------
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+
+  

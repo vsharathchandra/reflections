@@ -1,0 +1,28 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+
+A hidden directory ".git" is created.In it all the information about commits is stored.Using this
+we can version-control is done by git.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+staging area is the intermediate step between working directory and repository.Staging area allows for more customization.
+We can decide which files to commit by first adding them to staging area then commiting them to repository.
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+We can add files that we have changed to staging area and then commit them to the repository.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+If you want to try some experimental feature while keeping the original verion intact.(You could use gitcheckout to go back and forth)
+
+
